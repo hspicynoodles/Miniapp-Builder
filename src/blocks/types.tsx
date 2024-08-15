@@ -457,4 +457,15 @@ export const BlockTypes: { [key: string]: BlockType } = {
     createdBy: "seam",
     fullscreenEdit: false,
   },
+  "Mochi": { 
+    type: "Mochi",
+    displayName: "mochi",
+    displayDescription: "digital pet",
+    icon: "MochiIcon", // TODO: insert your app icon here
+    deprecated: false,
+    doesBlockPost: true,
+    doesBlockEdit: true,
+    createdBy: "hspicynoodles",
+    fullscreenEdit: false,
+},
 };
